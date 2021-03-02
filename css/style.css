@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.top {
+  background: #E0E1E2;
+  padding-bottom: 48px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  margin-bottom: 94px;
+}
+
+.top_img {
+  margin-top: 94px;
+  height: 256px;
+  background-image: url(/img/MX-Master\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 67px;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #2F3132;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2F3132;
+}
+
+.top_text-margin {
+  margin-left: 59px;
+  margin-right: 59px;
+}
+
+.top_arrow {
+  margin-top: 40px;
+  padding-bottom: ;
+  48px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.bluetooth {
+  padding-top: 42px;
+  background: #EDEDED;
+}
+
+.bluetooth_icon {
+  margin-bottom: 27px;
+}
+
+.text-margin {
+  margin-top: 20px;
+  margin-bottom: 31px;
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+.bluetooth_img {
+  height: 218px;
+  background-image: url(/img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bluetooth_heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #C4C4C4;
+}
+
+.info {
+  padding-top: 70px;
+  padding-bottom: 77px;
+}
+
+.carousel {
+  margin-bottom: 15px;
+}
+
+.info_item {
+  border: 1px solid black;
+  flex-basis: 166px;
+  min-height: 94px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info_content {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.info_item-heading {
+  margin-bottom: 5px;
+}
+
+.flow {
+  padding-top: 70px;
+  padding-bottom: 218px;
+  background-image: url();
+  background-color: #EDEDED;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.flow_ol {
+  margin-top: 36px;
+  padding-left: 54px;
+}
+
+.text_flow {
+  margin-bottom: 23px;
+  text-align: center;
+  width: ;
+}
+
+.settings {
+  padding-top: 70px;
+}
+
+.settings_slider {
+  margin: 35px 22px 98px 23px;
+}
+
+.settings_content {}
+
+.settings_icons {}
+
+.text_settings {}
+
+.settings_img {}
+
+.settings_icons {
+  display: flex;
+  justify-content: space-between;
+}

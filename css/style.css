@@ -14,6 +14,10 @@ body {
   padding-bottom: 48px;
 }
 
+.navbar {
+  padding-top: 25px;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -332,8 +336,84 @@ body {
 }
 
 @media (min-width:1024px) {
+  .header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .heading {
+    margin-bottom: 35px;
+  }
+  .text {}
   .center {
     padding-left: calc(50%-580px);
     padding-right: calc(50%-580px);
+  }
+  .header_logo_dark {}
+  .header_logo_white {
+    display: block;
+    width: 150px;
+  }
+  .navbar {
+    padding-top: none;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  /* .menu_desktop {
+    margin-left: 145px;
+  } */
+  .nav-item {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-right: 1px solid #494949;
+  }
+  .nav-item:first-child {
+    padding-left: 0;
+  }
+  .nav-item:last-child {
+    padding-right: 0;
+    border: none;
+  }
+  .top_img {
+    margin-top: 20px;
+    height: 671px;
+    padding-top: 80px;
+    margin-bottom: 8px;
+  }
+  .top_arrow {
+    margin-top: 49px;
+  }
+  .bluetooth_img {
+    height: 427px;
+    background: url() no-repeat 0 119px, url() no-repeat right 119px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .center_bluetooth {
+    padding-left: calc(50% - 622);
+    padding-right: calc(50% - 622);
+  }
+  .bluetooth_heading {
+    display: flex;
+    justify-content: center;
+  }
+  .bluetooth_heading_day_mini {
+    padding-top: 45px;
+  }
+  .bluetooth_heading_day {
+    padding-left: 74px;
+  }
+  .info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .info_text {
+    width: 765px;
+    margin: auto;
+  }
+  .info_item {
+    min-height: 140px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }

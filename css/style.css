@@ -1,12 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0 auto;
-  max-width: 1160px;
 }
 
 .top {
@@ -41,6 +34,7 @@ body {
   line-height: 23px;
   text-align: center;
   color: #2F3132;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -50,6 +44,14 @@ body {
   line-height: 16px;
   text-align: center;
   color: #2F3132;
+  margin-bottom: 0px;
+}
+
+.text_margin {
+  margin-top: 20px;
+  margin-bottom: 31px;
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 .top_text-margin {
@@ -77,21 +79,6 @@ body {
   margin-bottom: 27px;
 }
 
-.text-margin {
-  margin-top: 20px;
-  margin-bottom: 31px;
-  margin-left: 34px;
-  margin-right: 34px;
-}
-
-.bluetooth_img {
-  height: 218px;
-  background-image: url(/img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
 .bluetooth_heading {
   font-style: normal;
   font-weight: 900;
@@ -100,6 +87,15 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #C4C4C4;
+  margin-top: 31px;
+}
+
+.bluetooth_img {
+  height: 218px;
+  background-image: url(/img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
 }
 
 .top_svg {
@@ -113,24 +109,32 @@ body {
 }
 
 .carousel {
-  margin-bottom: 15px;
+  margin-bottom: 100px;
+}
+
+.info_text {
+  margin-left: 67px;
+  margin-right: 61px;
+}
+
+.info_content {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
 }
 
 .info_item {
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
   flex-basis: 166px;
   padding-left: 17px;
   padding-right: 17px;
   min-height: 94px;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-}
-
-.info_content {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
+  margin-bottom: 28px;
 }
 
 .info_item-heading {
@@ -138,9 +142,10 @@ body {
 }
 
 .info_heading {
+  font-style: normal;
   font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
   color: #2F3132;
 }
@@ -148,7 +153,7 @@ body {
 .flow {
   padding-top: 70px;
   padding-bottom: 218px;
-  background-image: url();
+  background-image: url(/img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
   background-color: #EDEDED;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -162,23 +167,40 @@ body {
 
 .text_flow {
   margin-bottom: 23px;
-  text-align: center;
-  width: ;
+  text-align: left;
+  width: 222px;
 }
 
 .settings {
   padding-top: 70px;
+  background: #EDEDED;
 }
 
 .settings_slider {
   margin: 35px 22px 98px 23px;
 }
 
-.settings_content {}
+.settings_content {
+  background: #C4C4C4;
+  padding: 23px 22px 26px 29px;
+}
 
-.settings_icons {}
+.settings_icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
-.text_settings {}
+.text_settings {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 5px;
+  margin-right: 11px;
+}
 
 .settings_img {}
 
@@ -188,6 +210,7 @@ body {
 }
 
 .mouse_text {
+  padding-top: 70px;
   padding-bottom: 20px;
 }
 
@@ -196,21 +219,29 @@ body {
 }
 
 .mouse_img_1 {
-  background-image: url();
+  background-image: url(/img/image\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
-.moouse_img_2 {
-  background-image: url();
+.mouse_img_2 {
+  background-image: url(/img/image\ 2.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .footer {
   padding-top: 22px;
   height: 75px;
-  background-color: #2F3132
+  background: #2F3132;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  text-align: center;
+  color: #C7C8C8;
 }
 
 /* Tablet */
@@ -218,23 +249,32 @@ body {
 @media (min-width:768px) {
   .top {
     padding-top: 54px;
-    padding-bottom: ;
+    padding-bottom: 80px;
   }
   .header_logo {
     width: 240px;
   }
-  .top_img {}
+  .top_img {
+    margin-top: 159px;
+    height: 514px;
+    margin-bottom: 124px;
+  }
   .heading {
+    font-size: 40px;
+    line-height: 47px;
     margin-bottom: 30px;
   }
-  .text {}
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
   .text_margin {
     margin-left: 77px;
     margin-right: 77px;
   }
   .top_text-margin {
-    margin-left: ;
-    margin-right;
+    margin-left: 159px;
+    margin-right: 159px;
   }
   .top_arrow {
     margin-top: 76px;
@@ -247,7 +287,10 @@ body {
     padding-top: 80px;
     padding-bottom: 3px;
   }
-  .bluetooth_heading {}
+  .bluetooth_heading {
+    font-size: 150px;
+    line-height: 176px;
+  }
   .bluetooth_img {
     height: 597px;
     margin-left: 39px;
@@ -262,7 +305,10 @@ body {
   .info_item {
     min-height: 170px;
   }
-  .info_heading {}
+  .info_heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
   .flow {
     padding-bottom: 498px;
     padding-left: 64px;
@@ -275,12 +321,14 @@ body {
   .flow_ol {
     display: flex;
     list-style-position: inside;
-    padding-left: 0px;
+    padding-left: 0;
   }
   .text_flow {
     width: auto;
     border-left: 1px solid black;
     padding: 8px 21px 4px 28px;
+    font-size: 20px;
+    line-height: 23px;
   }
   .text_flow:first-child {
     border-left: none;
@@ -289,12 +337,15 @@ body {
   .text_flow:last-child {
     padding-right: 0;
   }
+  .settings {
+    padding-bottom: 70px;
+  }
   .settings_slider {
     margin: 54px 198px 150px;
   }
   .heading_settings {
-    margin-left: 64px;
-    margin-right: 65px;
+    margin-left: 215px;
+    margin-right: 215px;
   }
   .text_settings-p {
     margin-left: 64px;
@@ -311,7 +362,10 @@ body {
   .settings_img {
     height: 35px;
   }
-  .text_settings {}
+  .text_settings {
+    font-size: 20px;
+    line-height: 23px;
+  }
   .text_mouse {
     margin-left: 0px;
     margin-right: 0px;
@@ -325,13 +379,16 @@ body {
     height: 549px;
   }
   .mouse_img_1 {
-    background-image: url();
+    background-image: url(/img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.jpg);
   }
-  .moouse_img_2 {
-    background-image: url();
+  .mouse_img_2 {
+    background-image: url(/img/image\ 2-1.jpg);
   }
   .footer {
     padding-top: 47px;
+    font-size: 14px;
+    line-height: 16px;
+    height: 150px;
   }
 }
 
@@ -408,8 +465,8 @@ body {
     padding-bottom: 100px;
   }
   .info_text {
-    width: 765px;
-    margin: auto;
+    margin-left: 67px;
+    margin-right: 61px;
   }
   .info_item {
     min-height: 140px;

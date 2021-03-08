@@ -54,6 +54,32 @@ body {
   margin-bottom: 20px;
 }
 
+/* #top_carousel {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+.wood {
+  background-image: url(/img/wood-texture.png);
+}
+
+.glass {
+  background-image: url(/img/glass-texture.png);
+}
+
+.linoleum {
+  background-image: url(/img/linoleum-texture.png);
+}
+
+.cloth {
+  background-image: url(/img/cloth-texture.png);
+}
+
+.marble {
+  background-image: url(/img/marble-texture.png);
+} */
+
 .text {
   font-style: normal;
   font-weight: normal;
@@ -210,6 +236,22 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  bottom: -62px;
+}
+
+.d-block .w-100 {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #2F3132;
 }
 
 .text_settings {
